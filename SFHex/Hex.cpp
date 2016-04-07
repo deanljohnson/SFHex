@@ -1,8 +1,11 @@
 #include "stdafx.h"
 #include "Hex.h"
 #include "HexUtils.h"
+#include "Layout.h"
 
-std::vector<sf::Vector2f> Hex::GetCorners(Layout& l) const
+const Hex Hex::Zero{ 0, 0, 0 };
+
+std::vector<sf::Vector2f> Hex::GetCorners(const Layout& l) const
 {
 	std::vector<sf::Vector2f> corners {};
 	auto center = HexUtils::HexToPixel(*this, l);
@@ -20,27 +23,27 @@ int Hex::Length() const
 	return (abs(X) + abs(Y) + abs(Z)) / 2;
 }
 
-Hex& Hex::operator=(const Hex& rhs)
+Hex Hex::operator=(const Hex& rhs)
 {
 	return Hex(rhs.X, rhs.Y, rhs.Z);
 }
 
-Hex& Hex::operator+=(const Hex& rhs)
+Hex Hex::operator+=(const Hex& rhs)
 {
 	return Hex(X + rhs.X, Y + rhs.Y, Z + rhs.Z);
 }
 
-Hex& Hex::operator-=(const Hex& rhs)
+Hex Hex::operator-=(const Hex& rhs)
 {
 	return Hex(X - rhs.X, Y - rhs.Y, Z - rhs.Z);
 }
 
-Hex& Hex::operator*=(const Hex& rhs)
+Hex Hex::operator*=(const Hex& rhs)
 {
 	return Hex(X * rhs.X, Y * rhs.Y, Z * rhs.Z);
 }
 
-Hex& Hex::operator/=(const Hex& rhs)
+Hex Hex::operator/=(const Hex& rhs)
 {
 	return Hex(X / rhs.X, Y / rhs.Y, Z / rhs.Z);
 }
