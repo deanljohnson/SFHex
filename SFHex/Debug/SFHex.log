@@ -1,7 +1,0 @@
-﻿  stdafx.cpp
-  dllmain.cpp
-  SFHex.cpp
-  Orientation.cpp
-  Generating Code...
-     Creating library D:\CodeProjects\CPP\SFHex\Debug\SFHex.lib and object D:\CodeProjects\CPP\SFHex\Debug\SFHex.exp
-  SFHex.vcxproj -> D:\CodeProjects\CPP\SFHex\Debug\SFHex.dll
