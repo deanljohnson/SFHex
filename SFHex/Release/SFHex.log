@@ -1,0 +1,9 @@
+﻿  stdafx.cpp
+  dllmain.cpp
+  Orientation.cpp
+  SFHex.cpp
+     Creating library D:\CodeProjects\CPP\SFHex\Release\SFHex.lib and object D:\CodeProjects\CPP\SFHex\Release\SFHex.exp
+  Generating code
+  All 12 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  SFHex.vcxproj -> D:\CodeProjects\CPP\SFHex\Release\SFHex.dll
