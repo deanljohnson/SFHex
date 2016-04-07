@@ -81,3 +81,15 @@ void HexSet::ExceptWith(ForwardIterator begin, ForwardIterator end)
 {
 	m_HexSet.erase(begin, end);
 }
+
+template<typedef ForwardIterator>
+void HexSet::IntersectWith(ForwardIterator begin, ForwardIterator end) 
+{
+	for (std::unordered_set<Hex>::iterator it = begin(); it != end(); it++) 
+	{
+		if (m_HexSet.find(*it) == m_HexSet.end()) 
+		{
+			m_HexSet.erase(*it);
+		}
+	}
+}

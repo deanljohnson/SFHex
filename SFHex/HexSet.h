@@ -36,6 +36,9 @@ public:
 
 	template<typedef ForwardIterator>
 	void ExceptWith(ForwardIterator begin, ForwardIterator end);
+
+	template<typedef ForwardIterator>
+	void IntersectWith(ForwarIterator begin, ForwarIterator, end);
 };
 
 #endif
