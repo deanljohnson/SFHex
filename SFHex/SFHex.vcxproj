@@ -150,6 +150,7 @@
   <ItemGroup>
     <ClInclude Include="FractionalHex.h" />
     <ClInclude Include="Hex.h" />
+    <ClInclude Include="HexSet.h" />
     <ClInclude Include="HexShape.h" />
     <ClInclude Include="HexUtils.h" />
     <ClInclude Include="Layout.h" />
@@ -175,6 +176,7 @@
     </ClCompile>
     <ClCompile Include="FractionalHex.cpp" />
     <ClCompile Include="Hex.cpp" />
+    <ClCompile Include="HexSet.cpp" />
     <ClCompile Include="HexShape.cpp" />
     <ClCompile Include="HexUtils.cpp" />
     <ClCompile Include="Layout.cpp" />
