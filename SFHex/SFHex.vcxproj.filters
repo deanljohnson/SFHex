@@ -36,6 +36,12 @@
     <ClInclude Include="HexUtils.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="FractionalHex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HexShape.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -57,6 +63,12 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Layout.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FractionalHex.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HexShape.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

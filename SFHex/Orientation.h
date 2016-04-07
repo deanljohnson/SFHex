@@ -1,4 +1,8 @@
 #pragma once
+
+#ifndef ORIENTATION_H
+#define ORIENTATION_H
+
 #include "SFHex.h"
 
 struct SFHEX_API Orientation
@@ -16,3 +20,5 @@ struct SFHEX_API Orientation
 	static const Orientation Pointed;
 	static const Orientation Flat;
 };
+
+#endif

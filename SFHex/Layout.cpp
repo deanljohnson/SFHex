@@ -11,7 +11,7 @@ sf::Vector2f CornerOffset(int c, const Layout& l)
 {
 	auto angle = 2.0 * M_PI * (c + l.Orientation.StartAngle / 6.0);
 
-	return sf::Vector2f(l.Size.x * cos(angle), l.Size.y * sin(angle));
+	return sf::Vector2f(l.Size.x * float(cos(angle)), l.Size.y * float(sin(angle)));
 }
 
 void Layout::SetCornerOffsets()

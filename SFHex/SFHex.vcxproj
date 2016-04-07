@@ -148,7 +148,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="FractionalHex.h" />
     <ClInclude Include="Hex.h" />
+    <ClInclude Include="HexShape.h" />
     <ClInclude Include="HexUtils.h" />
     <ClInclude Include="Layout.h" />
     <ClInclude Include="Orientation.h" />
@@ -171,7 +173,9 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
       </PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="FractionalHex.cpp" />
     <ClCompile Include="Hex.cpp" />
+    <ClCompile Include="HexShape.cpp" />
     <ClCompile Include="HexUtils.cpp" />
     <ClCompile Include="Layout.cpp" />
     <ClCompile Include="Orientation.cpp" />

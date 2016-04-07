@@ -1,6 +1,10 @@
 #pragma once
-#include "Orientation.h"
+
+#ifndef LAYOUT_H
+#define LAYOUT_H
+
 #include "SFML/System.hpp"
+#include "Orientation.h"
 
 struct SFHEX_API Layout
 {
@@ -23,3 +27,5 @@ public:
 	
 	sf::Vector2f GetCornerOffset(int c) const { return m_CornerOffsets[c]; }
 };
+
+#endif

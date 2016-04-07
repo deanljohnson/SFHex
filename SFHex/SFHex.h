@@ -10,6 +10,9 @@
 #define SFHEX_API __declspec(dllimport)
 #endif
 
+#ifndef SFHEX_H
+#define SFHEX_H
+
 // This class is exported from the SFHex.dll
 class SFHEX_API CSFHex {
 public:
@@ -20,3 +23,5 @@ public:
 extern SFHEX_API int nSFHex;
 
 SFHEX_API int fnSFHex(void);
+
+#endif

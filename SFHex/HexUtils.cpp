@@ -1,4 +1,6 @@
+#include "stdafx.h"
 #include "HexUtils.h"
+#include "Layout.h"
 
 sf::Vector2f HexUtils::HexToPixel(const Hex& h, const Layout& l)
 {
